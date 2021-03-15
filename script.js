@@ -35,9 +35,13 @@ Element.itemList.addEventListener('click', (e) => {
    }
 });
 
+
+function save() {
+   localStorage.setItem('Author', 'Mats Antonsson');
+}
+
+save();
 Element.inputBox.focus();
-
-
 
 
 
